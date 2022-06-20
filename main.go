@@ -65,6 +65,13 @@ func main() { // func means function
 
 	fmt.Println(" \n ")
 
-	fmt.Println("My name is", name, "I am ", age, "years old. \n", "My University is", uni, "and my CGPA is", CG)
+	// Variable Declaration and Variable initialization togather
+
+	var name_1 = "Shahnewaj"
+	var uni_1 = "AIUB"
+	var age_1 = 24
+	var CG_1 = 2.9
+
+	fmt.Println("My name is", name_1, "I am ", age_1, "years old. \n", "My University is", uni_1, "and my CGPA is", CG_1)
 
 }
