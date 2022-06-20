@@ -33,4 +33,8 @@ func main() {
 
 	fmt.Println("My name is", name_1, "I am ", age_1, "years old. \n", "My University is", uni_1, "and my CGPA is", CG_1)
 
+	newvariable := "We can declear variable without var key word. We just have to use _:_ before _=_ like \" CG := 2.0 \""
+
+	fmt.Print(newvariable)
+
 }
