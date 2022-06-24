@@ -21,7 +21,9 @@ Variations of float --> float32, float64
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 //fmt means format
 
@@ -31,9 +33,9 @@ func main() { // func means function
 	//int16 -- 2^16
 	//uint8 --> 2^8 = 256 which is 0 to 255
 
-	/*fmt.Println("First program on GO")
+	fmt.Println("First program on GO")
 	fmt.Print("Learning new things is so much fun.")
-	fmt.Print("Go is great for multithread programming.")*/
+	fmt.Print("Go is great for multithread programming. \n")
 
 	//Variables
 
@@ -74,8 +76,16 @@ func main() { // func means function
 
 	fmt.Println("My name is", name_1, "I am ", age_1, "years old. \n", "My University is", uni_1, "and my CGPA is", CG_1)
 
-	newvariable := "We can declear variable without var key word. We just have to use _:_ before _=_ like \" CG := 2.0 \""
+	newvariable := "We can declear variable without var key word. We just have to use _:_ before _=_ like \" CG := 2.0 \" \n"
 
 	fmt.Print(newvariable)
+
+	// Use of %v and Printf and Constant
+
+	address := "Kalabagan"
+	mobile := "0123333333"
+	const HOME = "BD"
+
+	fmt.Printf("My address is %v and my number is %v and my country is %v.", address, mobile, HOME)
 
 }

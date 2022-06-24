@@ -37,4 +37,12 @@ func main() {
 
 	fmt.Print(newvariable)
 
+	// Use of %v and Printf and Constant
+
+	address := "Kalabagan"
+	mobile := "0123333333"
+	const HOME = "BD"
+
+	fmt.Printf("My address is %v and my number is %v and my country is %v.", address, mobile, HOME)
+
 }
