@@ -21,9 +21,7 @@ Variations of float --> float32, float64
 
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 //fmt means format
 
@@ -87,5 +85,24 @@ func main() { // func means function
 	const HOME = "BD"
 
 	fmt.Printf("My address is %v and my number is %v and my country is %v.", address, mobile, HOME)
+
+	//Getting User input
+
+	var fullname_ui string
+	var num1_ui, num2_ui int
+
+	fmt.Print("Enter your name: ")
+	fmt.Scan(&fullname_ui)
+
+	fmt.Print("Enter two numbers: ")
+	fmt.Scan(&num1_ui, &num2_ui)
+
+	fmt.Printf("My name is %v \n", fullname_ui)
+	fmt.Printf("num1 is %v and num2 is %v \n", num1_ui, num2_ui)
+
+	/*var float float32
+	fmt.Print("Enter float number: ")
+	fmt.Scanf("%v", &float)
+	fmt.Printf("Float numver is %v", float)*/
 
 }
