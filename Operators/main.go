@@ -1,6 +1,6 @@
 /*
 1.Arithmetic --> + - * / %
-2.Assignment
+2.Assignment --> = += -= *= /= %=
 3.Unary
 4.Relational
 5.Logical
@@ -13,6 +13,7 @@ package main
 import "fmt"
 
 func main() {
+
 	var A, B int
 
 	fmt.Printf(" A = ")
@@ -35,4 +36,11 @@ func main() {
 
 	result = A % B
 	fmt.Printf("Reminder = %v  %%  %v = %v\n", A, B, result)
+
+	//Assignment
+	x := 4
+
+	x += 5 // here x = x+5 represents by x += 5
+
+	fmt.Printf("X = %v\n", x)
 }
