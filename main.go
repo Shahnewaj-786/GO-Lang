@@ -126,8 +126,8 @@ func main() { // func means function
 	fmt.Printf("%q\n", name) */
 
 	//Operators
-
-	var A, B int
+	//Arithmetic
+	/* var A, B int
 
 	fmt.Printf(" A = ")
 	fmt.Scan(&A)
@@ -137,6 +137,12 @@ func main() { // func means function
 
 	result := A + B
 	//fmt.Printf(" Sum = %v ", result)
-	fmt.Printf("Equn= %v+%v=%v\n", A, B, result)
+	fmt.Printf("Equn= %v+%v=%v\n", A, B, result) */
 
+	//Assignment
+	x := 4
+
+	x += 5 // here x = x+5 represents by x += 5
+
+	fmt.Printf("X = %v\n", x)
 }
