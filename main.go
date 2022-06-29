@@ -118,10 +118,25 @@ func main() { // func means function
 	fmt.Printf("Octal Number = %o\n", decimalNumber)
 	fmt.Printf("Hexadecimal Number = %x\n", decimalNumber) */
 
-	//String formatting
+	/* //String formatting
 
 	var name = "Nafiz"
 
 	fmt.Printf("%s\n", name)
-	fmt.Printf("%q\n", name)
+	fmt.Printf("%q\n", name) */
+
+	//Operators
+
+	var A, B int
+
+	fmt.Printf(" A = ")
+	fmt.Scan(&A)
+
+	fmt.Printf(" B = ")
+	fmt.Scan(&B)
+
+	result := A + B
+	//fmt.Printf(" Sum = %v ", result)
+	fmt.Printf("Equn= %v+%v=%v\n", A, B, result)
+
 }
