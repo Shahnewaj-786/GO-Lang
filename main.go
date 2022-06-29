@@ -107,12 +107,21 @@ func main() { // func means function
 	fmt.Printf("Float numver is %v", float)
 	*/
 
-	var decimalNumber int
+	// Number formatting
+
+	/* var decimalNumber int
 
 	fmt.Printf("Decimal Number= ")
 	fmt.Scanf("%v", &decimalNumber)
 
 	fmt.Printf("Binary Number = %b\n", decimalNumber)
 	fmt.Printf("Octal Number = %o\n", decimalNumber)
-	fmt.Printf("Hexadecimal Number = %x\n", decimalNumber)
+	fmt.Printf("Hexadecimal Number = %x\n", decimalNumber) */
+
+	//String formatting
+
+	var name = "Nafiz"
+
+	fmt.Printf("%s\n", name)
+	fmt.Printf("%q\n", name)
 }
