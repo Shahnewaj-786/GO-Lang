@@ -38,4 +38,9 @@ func main() {
 	fmt.Printf("Binary Number= %b\n", decimalNumber)
 	fmt.Printf("Octal Number= %o\n", decimalNumber)
 	fmt.Printf("Hexadecimal Number= %x\n", decimalNumber)
+
+	f_number := 3.141624588888888889999999999666666666333333
+	fmt.Printf("Float Number= %f\n", f_number)
+	fmt.Printf("Float Number= %.3f\n", f_number)
+
 }
