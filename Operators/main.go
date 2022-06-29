@@ -2,7 +2,7 @@
 1.Arithmetic --> + - * / %
 2.Assignment --> = += -= *= /= %=
 3.Unary --> ++ --
-4.Relational
+4.Relational --> < > == != !< !>
 5.Logical
 6.Bitwise
 7.Spical
@@ -50,4 +50,10 @@ func main() {
 	u_x++ // here x = x+1 represents by x ++
 
 	fmt.Printf("X = %v\n", u_x)
+
+	//Relational
+	r_x := 5
+	r_y := 9
+
+	fmt.Printf("x = %v\n", r_x == r_y)
 }
