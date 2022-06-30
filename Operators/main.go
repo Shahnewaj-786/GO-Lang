@@ -3,7 +3,7 @@
 2.Assignment --> = += -= *= /= %=
 3.Unary --> ++ --
 4.Relational --> < > == != !< !>
-5.Logical
+5.Logical --> && || !
 6.Bitwise
 7.Spical
 */
@@ -56,4 +56,13 @@ func main() {
 	r_y := 9
 
 	fmt.Printf("x = %v\n", r_x == r_y)
+
+	//Logical
+
+	l_x := 16
+
+	l_z := l_x > 5 && l_x > 9
+
+	fmt.Printf("l_z = %v\n", l_z)
+
 }
