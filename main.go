@@ -139,10 +139,37 @@ func main() { // func means function
 	//fmt.Printf(" Sum = %v ", result)
 	fmt.Printf("Equn= %v+%v=%v\n", A, B, result) */
 
-	//Assignment
+	/* //Assignment
 	x := 4
 
 	x += 5 // here x = x+5 represents by x += 5
 
-	fmt.Printf("X = %v\n", x)
+	fmt.Printf("X = %v\n", x) */
+
+	//Control Statement  --> Conditional CS, Loop CS
+
+	//Conditional --> if, else if, else, switch
+
+	number := -590
+
+	/* if number > 0 {
+		fmt.Printf("Positive\n")
+	}
+
+	if number < 0 {
+		fmt.Printf("Negative\n")
+	}
+
+	if number == 0 {
+		fmt.Printf("Zero\n")
+	} */
+
+	if number > 0 {
+		fmt.Printf("Positive\n")
+	} else if number < 0 {
+		fmt.Printf("Negative\n")
+	} else {
+		fmt.Printf("Zero\n")
+	}
+
 }
