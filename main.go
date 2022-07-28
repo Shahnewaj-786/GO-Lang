@@ -150,7 +150,7 @@ func main() { // func means function
 
 	//Conditional --> if, else if, else, switch
 
-	number := -590
+	//number := -590
 
 	/* if number > 0 {
 		fmt.Printf("Positive\n")
@@ -164,12 +164,19 @@ func main() { // func means function
 		fmt.Printf("Zero\n")
 	} */
 
-	if number > 0 {
+	/*if number > 0 {
 		fmt.Printf("Positive\n")
 	} else if number < 0 {
 		fmt.Printf("Negative\n")
 	} else {
 		fmt.Printf("Zero\n")
+	}*/
+
+	for x := 1; x < 6; x++ {
+		fmt.Println("Bangladesh")
 	}
 
+	for y := 1; y <= 100; y++ {
+		fmt.Printf("%v\n", y)
+	}
 }
