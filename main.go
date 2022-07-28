@@ -179,4 +179,11 @@ func main() { // func means function
 	for y := 1; y <= 100; y++ {
 		fmt.Printf("%v\n", y)
 	}
+
+	z := 100
+
+	for z >= 1 {
+		fmt.Printf("%v\n", z)
+		z--
+	}
 }
