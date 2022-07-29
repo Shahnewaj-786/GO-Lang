@@ -21,8 +21,6 @@ Variations of float --> float32, float64
 
 package main
 
-import "fmt"
-
 //fmt means format
 
 func main() { // func means function
@@ -172,7 +170,7 @@ func main() { // func means function
 		fmt.Printf("Zero\n")
 	}*/
 
-	for x := 1; x < 6; x++ {
+	/*for x := 1; x < 6; x++ {
 		fmt.Println("Bangladesh")
 	}
 
@@ -185,5 +183,6 @@ func main() { // func means function
 	for z >= 1 {
 		fmt.Printf("%v\n", z)
 		z--
-	}
+	}*/
+
 }
